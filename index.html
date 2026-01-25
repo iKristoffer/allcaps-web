@@ -227,12 +227,9 @@
 </head>
 
 <body onload="randomBackgroundColor()">
-    <!-- Logo Section -->
     <div class="container">
-        <img id="mainImage" src="https://allcapsgames.com/images/ac_logo.png" alt="logo" onclick="changeImage()">
+        <img id="mainImage" src="images/ac_logo.png" alt="logo" onclick="changeImage()">
     </div>
-
-    <!-- Games Section -->
 
     <div class="games-section">
         <div class="games-header">Our Games</div>
@@ -241,30 +238,26 @@
             <div class="games-item">
                 <a href="https://play.google.com/store/apps/details?id=com.ALLCAPS.Block_Amok&hl=en&gl=US"
                     target="_blank" rel="noopener noreferrer">
-                    <img class="games-logo" src="https://allcapsgames.com/images/projects/block-amok-app-icon.png"
-                        alt="Block Amok">
+                    <img class="games-logo" src="images/projects/block-amok-app-icon.png" alt="Block Amok">
                     <span class="games-text">Block Amok</span>
                 </a>
             </div>
             <div class="games-item">
                 <a href="https://play.google.com/store/apps/details?id=com.Allcaps.Jawsome&hl=en_US&gl=US"
                     target="_blank" rel="noopener noreferrer">
-                    <img class="games-logo" src="https://allcapsgames.com/images/projects/jawsome-app-icon.png"
-                        alt="Jawsome">
+                    <img class="games-logo" src="images/projects/jawsome-app-icon.png" alt="Jawsome">
                     <span class="games-text">Jawsome</span>
                 </a>
             </div>
             <div class="games-item">
                 <a href="https://www.youtube.com/watch?v=Ej1cF6EcE3k" target="_blank" rel="noopener noreferrer">
-                    <img class="games-logo" src="https://allcapsgames.com/images/projects/disco-flip-app-icon.png"
-                        alt="Disco Flip">
+                    <img class="games-logo" src="images/projects/disco-flip-app-icon.png" alt="Disco Flip">
                     <span class="games-text">Disco Flip</span>
                 </a>
             </div>
             <div class="games-item">
                 <a href="https://www.youtube.com/watch?v=wL1yDU7OXmc" target="_blank" rel="noopener noreferrer">
-                    <img class="games-logo" src="https://allcapsgames.com/images/projects/cute-vs-evil-app-icon.png"
-                        alt="Cute vs. Evil">
+                    <img class="games-logo" src="images/projects/cute-vs-evil-app-icon.png" alt="Cute vs. Evil">
                     <span class="games-text">Cute Vs. Evil</span>
                 </a>
             </div>
@@ -272,38 +265,33 @@
     </div>
 
 
-    <!-- Previous Partners Section -->
     <div class="partners-section">
         <div class="partners-header">Previous Partners</div>
         <div class="partners-logos">
             <div class="partner-item">
                 <a href="https://www.sallinggroup.com/" target="_blank" rel="noopener noreferrer">
-                    <img class="partner-logo" src="https://allcapsgames.com/images/partners/sg_logo.png"
-                        alt="Partner 1">
+                    <img class="partner-logo" src="images/partners/sg_logo.png" alt="Partner 1">
                     <span class="partner-text"></span>
                 </a>
             </div>
 
             <div class="partner-item">
                 <a href="https://trophy-games.com/" target="_blank" rel="noopener noreferrer">
-                    <img class="partner-logo" src="https://allcapsgames.com/images/partners/tg_logo.png"
-                        alt="Partner 2">
+                    <img class="partner-logo" src="images/partners/tg_logo.png" alt="Partner 2">
                     <span class="partner-text"></span>
                 </a>
             </div>
 
             <div class="partner-item">
                 <a href="https://3drealms.com/" target="_blank" rel="noopener noreferrer">
-                    <img class="partner-logo" src="https://allcapsgames.com/images/partners/3dr_logo.png"
-                        alt="Partner 3">
+                    <img class="partner-logo" src="images/partners/3dr_logo.png" alt="Partner 3">
                     <span class="partner-text"></span>
                 </a>
             </div>
 
             <div class="partner-item">
                 <a href="https://www.capnova.dk" target="_blank" rel="noopener noreferrer">
-                    <img class="partner-logo" src="https://allcapsgames.com/images/partners/cn_logo.png"
-                        alt="Partner 4">
+                    <img class="partner-logo" src="images/partners/cn_logo.png" alt="Partner 4">
                     <span class="partner-text"></span>
                 </a>
             </div>
@@ -311,9 +299,6 @@
 
         </div>
     </div>
-    <!-- End Partners Section -->
-
-    <!-- About Section -->
     <div class="about-section">
         <div class="about-header">About Us</div>
         <p class="about-text">
@@ -333,18 +318,13 @@
     </div>
 
 
-    </div>
-
-
     <script>
         function changeImage() {
             var image = document.getElementById('mainImage');
             var body = document.body;
             var computedBackgroundColor = window.getComputedStyle(body).getPropertyValue('background-color');
-      <!-- Blue rgb(12, 193, 255) -->
-      < !--Purple rgb(177, 30, 185)-- >
 
-                body.style.transition = 'background-color 1s ease';
+            body.style.transition = 'background-color 1s ease';
 
             if (computedBackgroundColor === 'rgb(12, 193, 255)') {
                 body.style.backgroundColor = 'rgb(177, 30, 185)';
@@ -375,7 +355,6 @@
 
     </script>
 
-    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HWBC33VFFE"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
